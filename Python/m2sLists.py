@@ -29,6 +29,3 @@ class Solution:
         curr.next = list1 if list1 else list2
 
         return dummy_node.next # our original node was set at the dummy node
-    
-    # Time: O(n)
-    # Space: O(1) // constant space
