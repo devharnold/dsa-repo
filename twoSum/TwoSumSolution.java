@@ -9,7 +9,7 @@ class TwoSumSolution {
             if (prevMap.containsKey(diff)) {
                 return new int[] { prevMap.get(diff), i };
             }
-            prevMap.put(nums[i], i)
+            prevMap.put(nums[i], i);
         }
         return new int[] {}; //java's version of python list return
     }
