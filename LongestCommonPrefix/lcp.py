@@ -20,7 +20,7 @@ class Solution:
 
         while low <= high:
             mid = (low + high) // 2
-            if self.isCommonPrefix:
+            if self.isCommonPrefix(strs, mid):
                 low = mid + 1
             else:
                 high = mid - 1
